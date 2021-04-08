@@ -1,21 +1,11 @@
 import React from "react";
+import Home from "./components/Home.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src </code>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home />
+      <h6> -------------------여기부터 APP.js-----------</h6>
     </div>
   );
 }
